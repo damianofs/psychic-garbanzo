@@ -6,80 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV Damiano</title>
     <link rel='stylesheet' href='styles.css'/>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
 <body class="bg">
   <header>
       <nav>
         <ul class="menu">
-          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="#about">ABOUT</a></li>
           <li><a href="portfolio.html">PORTFOLIO</a></li>
           <li><a class="terra" href="index.html"><img src="img/earth.png" alt="Terra" width="70" class="logo"> </a>
-          <li><a href="#">SOCIAL</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#social">SOCIAL</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
   </header>
+
   <article>
-    <div class="container">
+    <div class="container reveal">
       <div class="item">
-        <p class="para"> Based in <strong>Italy</strong>.</br></br> I’m a student for <a class="start" href="https://www.start2impact.it/?utm_source=google&utm_medium=cpc&utm_campaign=Search_Brand&gclid=CjwKCAjwvuGJBhB1EiwACU1AicdsdXtPziguoozf9brl0u_6ltmrgq4ynxr2lGdo7o98VOk4Sz5CphoCUw4QAvD_BwE">Start2Impact</a> and I will become a Junior UX/UI Designer soon. </p>
+        <p data-aos="fade-right" data-aos-duration="900" data-aos-delay="400" class="para"> Based in <strong>Italy</strong>.</br></br> I’m a student for <a class="start" href="https://www.start2impact.it/?utm_source=google&utm_medium=cpc&utm_campaign=Search_Brand&gclid=CjwKCAjwvuGJBhB1EiwACU1AicdsdXtPziguoozf9brl0u_6ltmrgq4ynxr2lGdo7o98VOk4Sz5CphoCUw4QAvD_BwE">Start2Impact</a> and I will become a Junior UX/UI Designer soon. </p>
     </div>
     <div class="items">
-      <h1 class="uno"> DAMIANO </br> FISICHELLA </h1>
-      <h2 class="sottotitolo"> UX/UI Designer </h2>
-</div>
-</div>
-  <div class="container-secondo">
+      <h1  data-aos="fade-left" data-aos-duration="900" class="uno"> DAMIANO </br> FISICHELLA </h1>
+      <h2 data-aos="fade-left" data-aos-duration="900" class="sottotitolo"> UX/UI Designer </h2>
+    </div>
+    </div>
+  </article>
+
+     <article>
+  <div id="about" class="container-secondo reveal">
     <div class="partesx">
-      <h1 class="about"> ABOUT </h1>
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <h1 data-aos="fade-right" data-aos-duration="900"  class="about"> ABOUT </h1>
+      <p data-aos="fade-right" data-aos-duration="900" class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
   </div>
   <div class="partedx" >
-     <img src="img/propic.png" width="300" class="propic">
+     <img  data-aos="fade-left" data-aos-duration="900" data-aos-delay="200" src="img/propic.png" width="300" class="propic">
    </div>
    </div>
-
-   <div class="partesx">
-     <h1 class="portfolio">PORTFOLIO </h1>
-     <h2 class="secondo">Leafey </h2></br>
-     <p class="foglia">Leafey è l’app di un’agenzia che organizza
-     viaggi presso i Parchi Nazionali italiani.</br>
-
-   </div>
-     <div class="screen-container">
-
-          <img src="img/leafey.png" width=250 height="250" class="screen">
-          <img src='img/creazione.png' width=250 height="250" class="screen">
-          <img src='img/giro.png' width=250 height="250" class="screen" >
-          <img src='img/affitta.png' width=250 height="250" class="screen">
-     </div>
 </article>
+
+<article>
+  <div class="container-terzo reveal">
+   <div id="portfolio" class="partesx">
+     <h1 data-aos="fade-right" data-aos-duration="900"  class="portfolio">PORTFOLIO </h1>
+   </div>
+   <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+  <img class="sisi "src="img/giro.png" alt="Avatar" width=400 >
+  <div class="container-tre">
+    <h3><b>Leafey</b></h3>
+    <p class="card-text"> Leafey è l’app di un’agenzia che organizza
+    viaggi presso i Parchi Nazionali italiani.</p>
+  </div>
+</div>
+</article>
+
 <footer>
-  <div class="container-secondo">
+  <div id="social"  class="container-secondo">
      <div class="footer-sx">
-         <p class="follow">FOLLOW ME ON:</p>
+         <p data-aos="fade-right" data-aos-duration="700" class="follow">FOLLOW ME ON</p>
          <ol class="social">
-           <li class="social-uno"><a class="social-uno" href="">Instagram</a></li>
-           <li class="social-uno"><a class="social-uno" href="">Facebook</a></li>
-           <li class="social-uno"><a class="social-uno" href="">Linkedin</a></li>
-           <li class="social-uno"><a class="social-uno" href="">GitHub</a></li>
+           <li class="social-uno"><div class="icon-footer"><img class="icon" src="img/instagram.png" width="25"><a class="social-uno" href="https://www.instagram.com/damianofisichella/">Instagram</a></div></li>
+           <li class="social-uno"><div class="icon-footer"><img class="icon" src="img/facebook.png" width="25"><a class="social-uno" href="https://www.facebook.com/damiano.fisichella.1/">Facebook</a></div></li>
+           <li class="social-uno"><div class="icon-footer"><img class="icon" src="img/linkedin.png" width="25"><a class="social-uno" href="https://www.linkedin.com/in/damiano-fisichella-067213212/">Linkedin</a></div></li>
+           <li class="social-uno"><div class="icon-footer"><img class="icon" src="img/github.png" width="25"><a class="social-uno" href="https://github.com/damianofs">GitHub</a></div></li>
          </ol>
      </div>
-     <div class="footer-dx">
-       <p class="contact">CONTACT</p>
+     <div id="contact" class="footer-dx">
+       <p data-aos="fade-left" data-aos-duration="700" class="contact">CONTACT</p>
        <ol class="social">
-         <li class="social-uno"><a class="social-uno" href="">+39-329 3626 136</a></li>
-         <li class="social-uno"><a class="social-uno" href="">damianofisichella22@gmail.com</a></li>
+         <li class="social-uno"><div class="icon-footer"><img class="icon" src="img/telephone.png" width="25"><a class="social-uno" href="">+393293626136</a></div></li>
+         <li class="social-uno"><div class="icon-footer"><img class="icon" src="img/email.png" width="25"><a class="social-uno" href="">damianofisichella22@gmail.com</a></div></li>
        </ol>
    </div>
 </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
